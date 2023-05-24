@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./app/allstyles.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $text;
+  font-family: Rubik;
+
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+span {
+  color: $accent;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
