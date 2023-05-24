@@ -1,0 +1,29 @@
+@import "./allstyles.scss";
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  max-width: 14%;
+
+  background-color: darken($color: $bgc, $amount: 4);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+  width: 100%;
+
+  background-color: $bgc;
+}
+
+
